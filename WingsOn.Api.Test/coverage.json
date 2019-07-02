@@ -1,0 +1,1657 @@
+{
+  "WingsOn.Api.dll": {
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Api\\Program.cs": {
+      "WingsOn.Api.Program": {
+        "System.Void WingsOn.Api.Program::Main(System.String[])": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Hosting.IWebHostBuilder WingsOn.Api.Program::CreateWebHostBuilder(System.String[])": {
+          "Lines": {
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Api\\Startup.cs": {
+      "WingsOn.Api.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration WingsOn.Api.Startup::get_Configuration()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void WingsOn.Api.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Void WingsOn.Api.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void WingsOn.Api.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Api\\Controllers\\BookingController.cs": {
+      "WingsOn.Api.Controllers.BookingController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<WingsOn.Domain.Booking> WingsOn.Api.Controllers.BookingController::Get(System.Int32)": {
+          "Lines": {
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "24": 2,
+            "25": 1,
+            "26": 1,
+            "29": 1,
+            "30": 2
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 20,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult WingsOn.Api.Controllers.BookingController::Post(WingsOn.Domain.Booking,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>)": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 1,
+            "37": 1,
+            "40": 1,
+            "41": 1,
+            "42": 2
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 35,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 2,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 28,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void WingsOn.Api.Controllers.BookingController::.ctor(WingsOn.BL.IBookingService)": {
+          "Lines": {
+            "13": 4,
+            "14": 4,
+            "15": 4,
+            "16": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Api\\Controllers\\PersonController.cs": {
+      "WingsOn.Api.Controllers.PersonController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<System.Collections.Generic.IEnumerable`1<WingsOn.Domain.Person>> WingsOn.Api.Controllers.PersonController::Get(System.Nullable`1<WingsOn.Domain.GenderType>,System.String)": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "26": 2,
+            "27": 1,
+            "28": 1,
+            "31": 1,
+            "32": 2
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 26,
+              "Offset": 16,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 26,
+              "Offset": 32,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<WingsOn.Domain.Person> WingsOn.Api.Controllers.PersonController::Get(System.Int32)": {
+          "Lines": {
+            "36": 2,
+            "37": 2,
+            "39": 2,
+            "40": 1,
+            "41": 1,
+            "44": 1,
+            "45": 2
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 20,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult WingsOn.Api.Controllers.PersonController::UpdatePerson(System.Int32,WingsOn.Domain.Person)": {
+          "Lines": {
+            "49": 2,
+            "50": 2,
+            "51": 1,
+            "52": 1,
+            "55": 1,
+            "57": 1,
+            "58": 2
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 50,
+              "Offset": 15,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void WingsOn.Api.Controllers.PersonController::.ctor(WingsOn.BL.IPersonService)": {
+          "Lines": {
+            "16": 6,
+            "17": 6,
+            "18": 6,
+            "19": 6
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "WingsOn.BL.dll": {
+    "C:\\Projects\\test task\\wingson template\\WingsOn.BL\\BookingService.cs": {
+      "WingsOn.BL.BookingService": {
+        "WingsOn.Domain.Booking WingsOn.BL.BookingService::GetById(System.Int32)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "WingsOn.Domain.Booking WingsOn.BL.BookingService::CreateBooking(WingsOn.Domain.Booking,System.Int32,System.Int32)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 28,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 39,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 64,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void WingsOn.BL.BookingService::.ctor(WingsOn.Dal.IRepository`1<WingsOn.Domain.Booking>,WingsOn.Dal.IRepository`1<WingsOn.Domain.Flight>,WingsOn.Dal.IRepository`1<WingsOn.Domain.Person>)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.BL\\PersonService.cs": {
+      "WingsOn.BL.PersonService": {
+        "WingsOn.Domain.Person WingsOn.BL.PersonService::GetById(System.Int32)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<WingsOn.Domain.Person> WingsOn.BL.PersonService::GetPeopleByCriteria(System.Nullable`1<WingsOn.Domain.GenderType>,System.String)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 55,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void WingsOn.BL.PersonService::UpdatePerson(System.Int32,WingsOn.Domain.Person)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Void WingsOn.BL.PersonService::.ctor(WingsOn.Dal.IRepository`1<WingsOn.Domain.Person>,WingsOn.Dal.IRepository`1<WingsOn.Domain.Booking>)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "WingsOn.BL.PersonService/<>c__DisplayClass4_0": {
+        "System.Boolean WingsOn.BL.PersonService/<>c__DisplayClass4_0::<GetPeopleByCriteria>b__0(WingsOn.Domain.Booking)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 11,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean WingsOn.BL.PersonService/<>c__DisplayClass4_0::<GetPeopleByCriteria>b__2(WingsOn.Domain.Person)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 11,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "WingsOn.Dal.dll": {
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Dal\\AirlineRepository.cs": {
+      "WingsOn.Dal.AirlineRepository": {
+        "System.Void WingsOn.Dal.AirlineRepository::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Dal\\AirportRepository.cs": {
+      "WingsOn.Dal.AirportRepository": {
+        "System.Void WingsOn.Dal.AirportRepository::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Dal\\BookingRepository.cs": {
+      "WingsOn.Dal.BookingRepository": {
+        "System.Void WingsOn.Dal.BookingRepository::.ctor()": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 85,
+              "EndOffset": 110,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 152,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 209,
+              "EndOffset": 211,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 209,
+              "EndOffset": 234,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 290,
+              "EndOffset": 292,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 290,
+              "EndOffset": 315,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 357,
+              "EndOffset": 359,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 357,
+              "EndOffset": 382,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 414,
+              "EndOffset": 416,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 414,
+              "EndOffset": 439,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 459,
+              "EndOffset": 461,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 459,
+              "EndOffset": 484,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 504,
+              "EndOffset": 506,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 504,
+              "EndOffset": 529,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 585,
+              "EndOffset": 587,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 585,
+              "EndOffset": 610,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 652,
+              "EndOffset": 654,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 652,
+              "EndOffset": 677,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 709,
+              "EndOffset": 711,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 709,
+              "EndOffset": 734,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 754,
+              "EndOffset": 756,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 754,
+              "EndOffset": 779,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 835,
+              "EndOffset": 837,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 835,
+              "EndOffset": 860,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 902,
+              "EndOffset": 904,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 902,
+              "EndOffset": 927,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 959,
+              "EndOffset": 961,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 959,
+              "EndOffset": 984,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1004,
+              "EndOffset": 1006,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1004,
+              "EndOffset": 1029,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Dal\\FlightRepository.cs": {
+      "WingsOn.Dal.FlightRepository": {
+        "System.Void WingsOn.Dal.FlightRepository::.ctor()": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 84,
+              "EndOffset": 86,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 84,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 151,
+              "EndOffset": 176,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 218,
+              "EndOffset": 220,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 218,
+              "EndOffset": 243,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 317,
+              "EndOffset": 319,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 317,
+              "EndOffset": 342,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 384,
+              "EndOffset": 386,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 384,
+              "EndOffset": 409,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 451,
+              "EndOffset": 453,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 451,
+              "EndOffset": 476,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 550,
+              "EndOffset": 552,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 550,
+              "EndOffset": 575,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 617,
+              "EndOffset": 619,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 617,
+              "EndOffset": 642,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 684,
+              "EndOffset": 686,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 684,
+              "EndOffset": 709,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 783,
+              "EndOffset": 785,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 783,
+              "EndOffset": 808,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 850,
+              "EndOffset": 852,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 850,
+              "EndOffset": 875,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 917,
+              "EndOffset": 919,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 917,
+              "EndOffset": 942,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1012,
+              "EndOffset": 1014,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1012,
+              "EndOffset": 1037,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1079,
+              "EndOffset": 1081,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1079,
+              "EndOffset": 1104,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1146,
+              "EndOffset": 1148,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1146,
+              "EndOffset": 1171,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1245,
+              "EndOffset": 1247,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1245,
+              "EndOffset": 1270,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1312,
+              "EndOffset": 1314,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1312,
+              "EndOffset": 1337,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1379,
+              "EndOffset": 1381,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1379,
+              "EndOffset": 1404,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Dal\\PersonRepository.cs": {
+      "WingsOn.Dal.PersonRepository": {
+        "System.Void WingsOn.Dal.PersonRepository::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Dal\\RepositoryBase.cs": {
+      "WingsOn.Dal.RepositoryBase`1": {
+        "System.Collections.Generic.IEnumerable`1<T> WingsOn.Dal.RepositoryBase`1::GetAll()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "T WingsOn.Dal.RepositoryBase`1::Get(System.Int32)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void WingsOn.Dal.RepositoryBase`1::Save(T)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 12,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 46,
+              "EndOffset": 63,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void WingsOn.Dal.RepositoryBase`1::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "WingsOn.Domain.dll": {
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Domain\\Airline.cs": {
+      "WingsOn.Domain.Airline": {
+        "System.String WingsOn.Domain.Airline::get_Code()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String WingsOn.Domain.Airline::get_Name()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String WingsOn.Domain.Airline::get_Address()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Domain\\Airport.cs": {
+      "WingsOn.Domain.Airport": {
+        "System.String WingsOn.Domain.Airport::get_Code()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String WingsOn.Domain.Airport::get_Country()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String WingsOn.Domain.Airport::get_City()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Domain\\Booking.cs": {
+      "WingsOn.Domain.Booking": {
+        "System.String WingsOn.Domain.Booking::get_Number()": {
+          "Lines": {
+            "8": 3
+          },
+          "Branches": []
+        },
+        "WingsOn.Domain.Flight WingsOn.Domain.Booking::get_Flight()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "WingsOn.Domain.Person WingsOn.Domain.Booking::get_Customer()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<WingsOn.Domain.Person> WingsOn.Domain.Booking::get_Passengers()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime WingsOn.Domain.Booking::get_DateBooking()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Domain\\DomainObject.cs": {
+      "WingsOn.Domain.DomainObject": {
+        "System.Int32 WingsOn.Domain.DomainObject::get_Id()": {
+          "Lines": {
+            "10": 11
+          },
+          "Branches": []
+        },
+        "System.Void WingsOn.Domain.DomainObject::.ctor()": {
+          "Lines": {
+            "5": 11,
+            "6": 11,
+            "8": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Domain\\Flight.cs": {
+      "WingsOn.Domain.Flight": {
+        "System.String WingsOn.Domain.Flight::get_Number()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "WingsOn.Domain.Airline WingsOn.Domain.Flight::get_Carrier()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "WingsOn.Domain.Airport WingsOn.Domain.Flight::get_DepartureAirport()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime WingsOn.Domain.Flight::get_DepartureDate()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "WingsOn.Domain.Airport WingsOn.Domain.Flight::get_ArrivalAirport()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime WingsOn.Domain.Flight::get_ArrivalDate()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal WingsOn.Domain.Flight::get_Price()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\test task\\wingson template\\WingsOn.Domain\\Person.cs": {
+      "WingsOn.Domain.Person": {
+        "System.String WingsOn.Domain.Person::get_Name()": {
+          "Lines": {
+            "7": 5
+          },
+          "Branches": []
+        },
+        "System.DateTime WingsOn.Domain.Person::get_DateBirth()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "WingsOn.Domain.GenderType WingsOn.Domain.Person::get_Gender()": {
+          "Lines": {
+            "11": 5
+          },
+          "Branches": []
+        },
+        "System.String WingsOn.Domain.Person::get_Address()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        },
+        "System.String WingsOn.Domain.Person::get_Email()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
