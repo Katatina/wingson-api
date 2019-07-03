@@ -2,30 +2,36 @@
 using WingsOn.Domain;
 using WingsOn.Dal;
 using System.Linq;
+using AutoMapper;
+using WingsOn.Api.Resource;
 
 namespace WingsOn.BL
 {
     public class BookingService : IBookingService
     {
+        private readonly IMapper _mapper;
         private readonly IRepository<Booking> _bookingRepository;
         private readonly IRepository<Flight> _flightRepository;
         private readonly IRepository<Person> _personRepository;
 
         public BookingService(IRepository<Booking> bookingRepository,
             IRepository<Flight> flightRepository,
-            IRepository<Person> personRepository)
+            IRepository<Person> personRepository,
+            IMapper mapper)
         {
             _bookingRepository = bookingRepository;
             _flightRepository = flightRepository;
             _personRepository = personRepository;
+            _mapper = mapper;
         }
 
-        public Booking GetById(int id)
+        public BookingResource GetById(int id)
         {
-            return _bookingRepository.Get(id);
+            var domainBooking = _bookingRepository.Get(id);
+            return _mapper.Map<Booking, BookingResource>(domainBooking);
         }
 
-        public Booking CreateBooking(Booking booking, int flightId, int passengerId)
+        public BookingResource CreateBooking(BookingResource booking, int flightId, int passengerId)
         {
             var existingFlight = _flightRepository.Get(flightId);
             var existingPassenger = _personRepository.Get(passengerId);
@@ -37,13 +43,16 @@ namespace WingsOn.BL
 
             var newId = (_bookingRepository.GetAll().Max(b => b.Id)) + 1;
 
-            booking.Flight = existingFlight;
-            booking.Passengers = new List<Person> { existingPassenger };
-            booking.Id = newId;
+            var bookingToSave = _mapper.Map<BookingResource, Booking>(booking);
 
-            _bookingRepository.Save(booking);
+            bookingToSave.Flight = existingFlight;
+            bookingToSave.Passengers = new List<Person> { existingPassenger };
+            bookingToSave.Id = newId;
 
-            return _bookingRepository.Get(newId);
+            _bookingRepository.Save(bookingToSave);
+
+            var savedBooking = _bookingRepository.Get(newId);
+            return _mapper.Map<Booking, BookingResource>(savedBooking);
         }
     }
 }

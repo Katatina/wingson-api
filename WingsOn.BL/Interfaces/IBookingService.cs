@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using WingsOn.Domain;
+﻿using WingsOn.Api.Resource;
 
 namespace WingsOn.BL
 {
     public interface IBookingService
     {
-        Booking GetById(int id);
+        BookingResource GetById(int id);
 
-        Booking CreateBooking(Booking booking, int flightId, int passengerId);
+        BookingResource CreateBooking(BookingResource booking, int flightId, int passengerId);
     }
 }

@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using WingsOn.Domain;
+using WingsOn.Api.Resource;
 using WingsOn.BL;
 
 namespace WingsOn.Api.Controllers
@@ -19,7 +18,7 @@ namespace WingsOn.Api.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Person>> Get([FromQuery] GenderType? gender, [FromQuery] string flightNumber)
+        public ActionResult<IEnumerable<PersonResource>> Get([FromQuery] GenderTypeResource? gender, [FromQuery] string flightNumber)
         {
             var people = _personService.GetPeopleByCriteria(gender, flightNumber);
 
@@ -32,7 +31,7 @@ namespace WingsOn.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Person> Get(int id)
+        public ActionResult<PersonResource> Get(int id)
         {
             var person = _personService.GetById(id);
 
@@ -45,7 +44,7 @@ namespace WingsOn.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody]Person person)
+        public ActionResult Put(int id, [FromBody]PersonResource person)
         {
             if (id != person.Id)
             {

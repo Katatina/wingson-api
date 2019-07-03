@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WingsOn.Api.Resource\WingsOn.Api.Resource.csproj" />
     <ProjectReference Include="..\WingsOn.Dal\WingsOn.Dal.csproj" />
     <ProjectReference Include="..\WingsOn.Domain\WingsOn.Domain.csproj" />
   </ItemGroup>

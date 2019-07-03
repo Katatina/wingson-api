@@ -6,6 +6,7 @@ using WingsOn.BL;
 using WingsOn.Domain;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using WingsOn.Api.Resource;
 
 namespace WingsOn.Api.Test
 {
@@ -14,7 +15,7 @@ namespace WingsOn.Api.Test
         [Fact]
         public void GetPersonByIdSuccess()
         {
-            var fakePerson = new Person { Id = 1, Name = "Katsiaryna", Address = "Minsk", Gender = GenderType.Female };
+            var fakePerson = new PersonResource { Id = 1, Name = "Katsiaryna", Address = "Minsk", Gender = GenderTypeResource.Female };
 
             var mockedPersonService = new Mock<IPersonService>();
             mockedPersonService.Setup(service => service.GetById(fakePerson.Id)).Returns(fakePerson);
@@ -32,7 +33,7 @@ namespace WingsOn.Api.Test
             var fakePersonId = 1;
 
             var mockedPersonService = new Mock<IPersonService>();
-            mockedPersonService.Setup(service => service.GetById(fakePersonId)).Returns((Person)null);
+            mockedPersonService.Setup(service => service.GetById(fakePersonId)).Returns((PersonResource)null);
 
             var personController = new PersonController(mockedPersonService.Object);
 
@@ -46,12 +47,12 @@ namespace WingsOn.Api.Test
         {
             var mockedPersonService = new Mock<IPersonService>();
             mockedPersonService
-                .Setup(service => service.GetPeopleByCriteria(GenderType.Male, null))
+                .Setup(service => service.GetPeopleByCriteria(GenderTypeResource.Male, null))
                 .Returns(GetMalePeople());
 
             var personController = new PersonController(mockedPersonService.Object);
 
-            var actionResult = personController.Get(GenderType.Male, null).Result;
+            var actionResult = personController.Get(GenderTypeResource.Male, null).Result;
 
             Assert.IsType<OkObjectResult>(actionResult);
         }
@@ -61,12 +62,12 @@ namespace WingsOn.Api.Test
         {
             var mockedPersonService = new Mock<IPersonService>();
             mockedPersonService
-                .Setup(service => service.GetPeopleByCriteria(GenderType.Male, null))
+                .Setup(service => service.GetPeopleByCriteria(GenderTypeResource.Male, null))
                 .Returns(GetMalePeople());
 
             var personController = new PersonController(mockedPersonService.Object);
 
-            var actionResult = personController.Get(GenderType.Female, null).Result;
+            var actionResult = personController.Get(GenderTypeResource.Female, null).Result;
 
             Assert.IsType<NotFoundResult>(actionResult);
         }
@@ -74,7 +75,7 @@ namespace WingsOn.Api.Test
         [Fact]
         public void UpdatePersonSuccess()
         {
-            var fakePerson = new Person { Id = 1};
+            var fakePerson = new PersonResource { Id = 1};
 
             var mockedPersonService = new Mock<IPersonService>();
             mockedPersonService
@@ -89,7 +90,7 @@ namespace WingsOn.Api.Test
         [Fact]
         public void UpdatePersonBadRequest()
         {
-            var fakePerson = new Person { Id = 2 };
+            var fakePerson = new PersonResource { Id = 2 };
 
             var mockedPersonService = new Mock<IPersonService>();
             mockedPersonService
@@ -102,19 +103,19 @@ namespace WingsOn.Api.Test
             Assert.IsType<BadRequestResult>(actionResult);
         }
 
-        private IList<Person> GetMalePeople()
+        private IList<PersonResource> GetMalePeople()
         {
-            return new List<Person> {
-                new Person
+            return new List<PersonResource> {
+                new PersonResource
                 {
                     Id= 1,
-                    Gender = GenderType.Male,
+                    Gender = GenderTypeResource.Male,
                     Name = "John"
                 },
-                new Person
+                new PersonResource
                 {
                     Id= 2,
-                    Gender = GenderType.Male,
+                    Gender = GenderTypeResource.Male,
                     Name = "Jack"
                 }
             };

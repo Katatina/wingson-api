@@ -1,368 +1,16 @@
 {
-  "WingsOn.Api.dll": {
-    "C:\\Projects\\test task\\WingsOn\\wingson-api\\WingsOn.Api\\Program.cs": {
-      "WingsOn.Api.Program": {
-        "System.Void WingsOn.Api.Program::Main(System.String[])": {
-          "Lines": {
-            "9": 0,
-            "10": 0,
-            "11": 0
-          },
-          "Branches": []
-        },
-        "Microsoft.AspNetCore.Hosting.IWebHostBuilder WingsOn.Api.Program::CreateWebHostBuilder(System.String[])": {
-          "Lines": {
-            "14": 0,
-            "15": 0
-          },
-          "Branches": []
-        }
-      }
-    },
-    "C:\\Projects\\test task\\WingsOn\\wingson-api\\WingsOn.Api\\Startup.cs": {
-      "WingsOn.Api.Startup": {
-        "Microsoft.Extensions.Configuration.IConfiguration WingsOn.Api.Startup::get_Configuration()": {
-          "Lines": {
-            "21": 0
-          },
-          "Branches": []
-        },
-        "System.Void WingsOn.Api.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
-          "Lines": {
-            "25": 0,
-            "26": 0,
-            "28": 0,
-            "29": 0,
-            "30": 0,
-            "31": 0,
-            "32": 0,
-            "34": 0,
-            "35": 0,
-            "37": 0,
-            "38": 0,
-            "39": 0,
-            "40": 0,
-            "42": 0,
-            "43": 0,
-            "44": 0
-          },
-          "Branches": [
-            {
-              "Line": 37,
-              "Offset": 69,
-              "EndOffset": 71,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 37,
-              "Offset": 69,
-              "EndOffset": 94,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            }
-          ]
-        },
-        "System.Void WingsOn.Api.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
-          "Lines": {
-            "48": 0,
-            "49": 0,
-            "50": 0,
-            "51": 0,
-            "52": 0,
-            "54": 0,
-            "55": 0,
-            "57": 0,
-            "58": 0,
-            "60": 0,
-            "61": 0,
-            "62": 0
-          },
-          "Branches": [
-            {
-              "Line": 49,
-              "Offset": 9,
-              "EndOffset": 11,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 49,
-              "Offset": 9,
-              "EndOffset": 22,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            }
-          ]
-        },
-        "System.Void WingsOn.Api.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
-          "Lines": {
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0
-          },
-          "Branches": []
-        }
-      }
-    },
-    "C:\\Projects\\test task\\WingsOn\\wingson-api\\WingsOn.Api\\Mappings\\MappingProfile.cs": {
-      "WingsOn.Api.Mappings.MappingProfile": {
-        "System.Void WingsOn.Api.Mappings.MappingProfile::.ctor()": {
-          "Lines": {
-            "9": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "14": 0,
-            "15": 0,
-            "17": 0,
-            "18": 0,
-            "20": 0,
-            "21": 0,
-            "22": 0
-          },
-          "Branches": []
-        }
-      }
-    },
-    "C:\\Projects\\test task\\WingsOn\\wingson-api\\WingsOn.Api\\Controllers\\BookingController.cs": {
-      "WingsOn.Api.Controllers.BookingController": {
-        "Microsoft.AspNetCore.Mvc.ActionResult`1<WingsOn.Api.Resource.BookingResource> WingsOn.Api.Controllers.BookingController::Get(System.Int32)": {
-          "Lines": {
-            "20": 2,
-            "21": 2,
-            "22": 2,
-            "24": 2,
-            "25": 1,
-            "26": 1,
-            "29": 1,
-            "30": 2
-          },
-          "Branches": [
-            {
-              "Line": 24,
-              "Offset": 20,
-              "EndOffset": 22,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 1
-            },
-            {
-              "Line": 24,
-              "Offset": 20,
-              "EndOffset": 37,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 1
-            }
-          ]
-        },
-        "Microsoft.AspNetCore.Mvc.ActionResult WingsOn.Api.Controllers.BookingController::Post(WingsOn.Api.Resource.BookingResource,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>)": {
-          "Lines": {
-            "34": 2,
-            "35": 2,
-            "36": 1,
-            "37": 1,
-            "40": 1,
-            "41": 1,
-            "42": 2
-          },
-          "Branches": [
-            {
-              "Line": 35,
-              "Offset": 2,
-              "EndOffset": 4,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 2
-            },
-            {
-              "Line": 35,
-              "Offset": 11,
-              "EndOffset": 13,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 1
-            },
-            {
-              "Line": 35,
-              "Offset": 2,
-              "EndOffset": 25,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 1
-            },
-            {
-              "Line": 35,
-              "Offset": 11,
-              "EndOffset": 25,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 1
-            },
-            {
-              "Line": 35,
-              "Offset": 28,
-              "EndOffset": 30,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 1
-            },
-            {
-              "Line": 35,
-              "Offset": 28,
-              "EndOffset": 40,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 1
-            }
-          ]
-        },
-        "System.Void WingsOn.Api.Controllers.BookingController::.ctor(WingsOn.BL.IBookingService)": {
-          "Lines": {
-            "13": 4,
-            "14": 4,
-            "15": 4,
-            "16": 4
-          },
-          "Branches": []
-        }
-      }
-    },
-    "C:\\Projects\\test task\\WingsOn\\wingson-api\\WingsOn.Api\\Controllers\\PersonController.cs": {
-      "WingsOn.Api.Controllers.PersonController": {
-        "Microsoft.AspNetCore.Mvc.ActionResult`1<System.Collections.Generic.IEnumerable`1<WingsOn.Api.Resource.PersonResource>> WingsOn.Api.Controllers.PersonController::Get(System.Nullable`1<WingsOn.Api.Resource.GenderTypeResource>,System.String)": {
-          "Lines": {
-            "22": 2,
-            "23": 2,
-            "25": 2,
-            "26": 1,
-            "27": 1,
-            "30": 1,
-            "31": 2
-          },
-          "Branches": [
-            {
-              "Line": 25,
-              "Offset": 16,
-              "EndOffset": 18,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 2
-            },
-            {
-              "Line": 25,
-              "Offset": 16,
-              "EndOffset": 29,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 25,
-              "Offset": 32,
-              "EndOffset": 34,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 1
-            },
-            {
-              "Line": 25,
-              "Offset": 32,
-              "EndOffset": 49,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 1
-            }
-          ]
-        },
-        "Microsoft.AspNetCore.Mvc.ActionResult`1<WingsOn.Api.Resource.PersonResource> WingsOn.Api.Controllers.PersonController::Get(System.Int32)": {
-          "Lines": {
-            "35": 2,
-            "36": 2,
-            "38": 2,
-            "39": 1,
-            "40": 1,
-            "43": 1,
-            "44": 2
-          },
-          "Branches": [
-            {
-              "Line": 38,
-              "Offset": 20,
-              "EndOffset": 22,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 1
-            },
-            {
-              "Line": 38,
-              "Offset": 20,
-              "EndOffset": 37,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 1
-            }
-          ]
-        },
-        "Microsoft.AspNetCore.Mvc.ActionResult WingsOn.Api.Controllers.PersonController::Put(System.Int32,WingsOn.Api.Resource.PersonResource)": {
-          "Lines": {
-            "48": 2,
-            "49": 2,
-            "50": 1,
-            "51": 1,
-            "54": 1,
-            "56": 1,
-            "57": 2
-          },
-          "Branches": [
-            {
-              "Line": 49,
-              "Offset": 15,
-              "EndOffset": 17,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 1
-            },
-            {
-              "Line": 49,
-              "Offset": 15,
-              "EndOffset": 27,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 1
-            }
-          ]
-        },
-        "System.Void WingsOn.Api.Controllers.PersonController::.ctor(WingsOn.BL.IPersonService)": {
-          "Lines": {
-            "15": 6,
-            "16": 6,
-            "17": 6,
-            "18": 6
-          },
-          "Branches": []
-        }
-      }
-    }
-  },
   "WingsOn.Api.Resource.dll": {
     "C:\\Projects\\test task\\WingsOn\\wingson-api\\WingsOn.Api.Resource\\BookingResource.cs": {
       "WingsOn.Api.Resource.BookingResource": {
         "System.Int32 WingsOn.Api.Resource.BookingResource::get_Id()": {
           "Lines": {
-            "8": 2
+            "8": 0
           },
           "Branches": []
         },
         "System.String WingsOn.Api.Resource.BookingResource::get_Number()": {
           "Lines": {
-            "10": 3
+            "10": 0
           },
           "Branches": []
         },
@@ -430,7 +78,7 @@
       "WingsOn.Api.Resource.PersonResource": {
         "System.Int32 WingsOn.Api.Resource.PersonResource::get_Id()": {
           "Lines": {
-            "7": 12
+            "7": 4
           },
           "Branches": []
         },
@@ -448,13 +96,13 @@
         },
         "WingsOn.Api.Resource.GenderTypeResource WingsOn.Api.Resource.PersonResource::get_Gender()": {
           "Lines": {
-            "13": 5
+            "13": 4
           },
           "Branches": []
         },
         "System.String WingsOn.Api.Resource.PersonResource::get_Address()": {
           "Lines": {
-            "15": 1
+            "15": 0
           },
           "Branches": []
         },
@@ -570,25 +218,25 @@
       "WingsOn.BL.PersonService": {
         "WingsOn.Api.Resource.PersonResource WingsOn.BL.PersonService::GetById(System.Int32)": {
           "Lines": {
-            "26": 0,
-            "27": 0,
-            "28": 0,
-            "29": 0
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1
           },
           "Branches": []
         },
         "System.Collections.Generic.IEnumerable`1<WingsOn.Api.Resource.PersonResource> WingsOn.BL.PersonService::GetPeopleByCriteria(System.Nullable`1<WingsOn.Api.Resource.GenderTypeResource>,System.String)": {
           "Lines": {
-            "32": 0,
-            "33": 0,
-            "35": 0,
-            "36": 0,
-            "37": 0,
-            "38": 0,
-            "39": 0,
-            "40": 0,
-            "42": 0,
-            "43": 0
+            "32": 1,
+            "33": 1,
+            "35": 1,
+            "36": 1,
+            "37": 3,
+            "38": 3,
+            "39": 1,
+            "40": 5,
+            "42": 1,
+            "43": 1
           },
           "Branches": [
             {
@@ -597,7 +245,7 @@
               "EndOffset": 68,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 35,
@@ -605,29 +253,29 @@
               "EndOffset": 91,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
+              "Hits": 1
             }
           ]
         },
         "System.Void WingsOn.BL.PersonService::UpdatePerson(System.Int32,WingsOn.Api.Resource.PersonResource)": {
           "Lines": {
-            "46": 0,
-            "47": 0,
-            "48": 0,
-            "49": 0
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1
           },
           "Branches": []
         },
         "System.Void WingsOn.BL.PersonService::.ctor(WingsOn.Dal.IRepository`1<WingsOn.Domain.Person>,WingsOn.Dal.IRepository`1<WingsOn.Domain.Booking>,AutoMapper.IMapper)": {
           "Lines": {
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "21": 0,
-            "22": 0,
-            "23": 0
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3
           },
           "Branches": []
         }
@@ -650,7 +298,7 @@
               "EndOffset": 37,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
+              "Hits": 2
             }
           ]
         },
@@ -663,7 +311,7 @@
               "EndOffset": 13,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 4
             },
             {
               "Line": 40,
@@ -1694,31 +1342,31 @@
       "WingsOn.Domain.Booking": {
         "System.String WingsOn.Domain.Booking::get_Number()": {
           "Lines": {
-            "8": 0
+            "8": 6
           },
           "Branches": []
         },
         "WingsOn.Domain.Flight WingsOn.Domain.Booking::get_Flight()": {
           "Lines": {
-            "10": 0
+            "10": 6
           },
           "Branches": []
         },
         "WingsOn.Domain.Person WingsOn.Domain.Booking::get_Customer()": {
           "Lines": {
-            "12": 0
+            "12": 6
           },
           "Branches": []
         },
         "System.Collections.Generic.IEnumerable`1<WingsOn.Domain.Person> WingsOn.Domain.Booking::get_Passengers()": {
           "Lines": {
-            "14": 0
+            "14": 8
           },
           "Branches": []
         },
         "System.DateTime WingsOn.Domain.Booking::get_DateBooking()": {
           "Lines": {
-            "16": 0
+            "16": 6
           },
           "Branches": []
         }
@@ -1728,15 +1376,15 @@
       "WingsOn.Domain.DomainObject": {
         "System.Int32 WingsOn.Domain.DomainObject::get_Id()": {
           "Lines": {
-            "10": 0
+            "10": 19
           },
           "Branches": []
         },
         "System.Void WingsOn.Domain.DomainObject::.ctor()": {
           "Lines": {
-            "5": 0,
-            "6": 0,
-            "8": 0
+            "5": 34,
+            "6": 34,
+            "8": 34
           },
           "Branches": []
         }
@@ -1746,7 +1394,7 @@
       "WingsOn.Domain.Flight": {
         "System.String WingsOn.Domain.Flight::get_Number()": {
           "Lines": {
-            "7": 0
+            "7": 6
           },
           "Branches": []
         },
@@ -1792,7 +1440,7 @@
       "WingsOn.Domain.Person": {
         "System.String WingsOn.Domain.Person::get_Name()": {
           "Lines": {
-            "7": 0
+            "7": 26
           },
           "Branches": []
         },
@@ -1804,7 +1452,7 @@
         },
         "WingsOn.Domain.GenderType WingsOn.Domain.Person::get_Gender()": {
           "Lines": {
-            "11": 0
+            "11": 24
           },
           "Branches": []
         },

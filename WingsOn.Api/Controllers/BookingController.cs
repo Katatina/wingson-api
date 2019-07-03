@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WingsOn.Domain;
+using WingsOn.Api.Resource;
 using WingsOn.BL;
 
 namespace WingsOn.Api.Controllers
@@ -16,7 +16,7 @@ namespace WingsOn.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Booking> Get(int id)
+        public ActionResult<BookingResource> Get(int id)
         {
             var booking = 
                 _bookingService.GetById(id);
@@ -30,7 +30,7 @@ namespace WingsOn.Api.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody]Booking booking, [FromQuery]int? flightId, [FromQuery]int? passengerId)
+        public ActionResult Post([FromBody]BookingResource booking, [FromQuery]int? flightId, [FromQuery]int? passengerId)
         {
             if (booking == null || flightId == null || passengerId == null)
             {

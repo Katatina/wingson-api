@@ -7,11 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingsOn.Dal", "WingsOn.Dal\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingsOn.Domain", "WingsOn.Domain\WingsOn.Domain.csproj", "{F1792ED2-360F-4864-8A3D-3FAAE3E9FC4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingsOn.Api", "WingsOn.Api\WingsOn.Api.csproj", "{E947C5B0-C5FF-47C0-8C2F-09A0FE8F5E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingsOn.Api", "WingsOn.Api\WingsOn.Api.csproj", "{E947C5B0-C5FF-47C0-8C2F-09A0FE8F5E50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingsOn.BL", "WingsOn.BL\WingsOn.BL.csproj", "{67B99521-D16B-4CC4-8F55-60DEBD9BA644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingsOn.BL", "WingsOn.BL\WingsOn.BL.csproj", "{67B99521-D16B-4CC4-8F55-60DEBD9BA644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingsOn.Api.Test", "WingsOn.Api.Test\WingsOn.Api.Test.csproj", "{B2399772-5AFA-4230-9BFF-CA07112FF06A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingsOn.Api.Test", "WingsOn.Api.Test\WingsOn.Api.Test.csproj", "{B2399772-5AFA-4230-9BFF-CA07112FF06A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingsOn.Api.Resource", "WingsOn.Api.Resource\WingsOn.Api.Resource.csproj", "{80A8784E-EDBC-4FD7-84A0-FED24FF1BFF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingsOn.BL.Test", "WingsOn.BL.Test\WingsOn.BL.Test.csproj", "{35DDF010-1C6F-4CFA-B488-DFDD3133E5E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B2399772-5AFA-4230-9BFF-CA07112FF06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2399772-5AFA-4230-9BFF-CA07112FF06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2399772-5AFA-4230-9BFF-CA07112FF06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A8784E-EDBC-4FD7-84A0-FED24FF1BFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A8784E-EDBC-4FD7-84A0-FED24FF1BFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A8784E-EDBC-4FD7-84A0-FED24FF1BFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A8784E-EDBC-4FD7-84A0-FED24FF1BFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DDF010-1C6F-4CFA-B488-DFDD3133E5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DDF010-1C6F-4CFA-B488-DFDD3133E5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DDF010-1C6F-4CFA-B488-DFDD3133E5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DDF010-1C6F-4CFA-B488-DFDD3133E5E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

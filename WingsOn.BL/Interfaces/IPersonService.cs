@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using WingsOn.Dal;
-using WingsOn.Domain;
-using System.Linq;
+﻿using System.Collections.Generic;
+using WingsOn.Api.Resource;
 
 namespace WingsOn.BL
 {
     public interface IPersonService
     {
-        IEnumerable<Person> GetPeopleByCriteria(GenderType? gender, string flightNumber);
+        IEnumerable<PersonResource> GetPeopleByCriteria(GenderTypeResource? gender, string flightNumber);
 
-        Person GetById(int id);
+        PersonResource GetById(int id);
 
-        void UpdatePerson(int personId, Person person);
+        void UpdatePerson(int personId, PersonResource person);
     }
 }

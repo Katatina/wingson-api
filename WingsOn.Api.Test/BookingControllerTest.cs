@@ -1,11 +1,9 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 using WingsOn.Api.Controllers;
 using Moq;
 using WingsOn.BL;
-using WingsOn.Domain;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+using WingsOn.Api.Resource;
 
 namespace WingsOn.Api.Test
 {
@@ -15,7 +13,7 @@ namespace WingsOn.Api.Test
         public void GetBookingByIdSuccess()
         {
             var fakeBookingId = 1;
-            var fakeBooking = new Booking { Id = 1, Number = "KSJHD" };
+            var fakeBooking = new BookingResource { Id = 1, Number = "KSJHD" };
 
             var mockedBookingService = new Mock<IBookingService>();
             mockedBookingService.Setup(service => service.GetById(fakeBookingId)).Returns(fakeBooking);
@@ -33,7 +31,7 @@ namespace WingsOn.Api.Test
             var fakeBookingId = 1;
 
             var mockedBookingService = new Mock<IBookingService>();
-            mockedBookingService.Setup(service => service.GetById(fakeBookingId)).Returns((Booking)null);
+            mockedBookingService.Setup(service => service.GetById(fakeBookingId)).Returns((BookingResource)null);
 
             var bookingController = new BookingController(mockedBookingService.Object);
 
@@ -45,7 +43,7 @@ namespace WingsOn.Api.Test
         [Fact]
         public void CreateBookingBadRequest()
         {
-            var fakeBooking = new Booking
+            var fakeBooking = new BookingResource
             {
                 Number = "sdfsf"
             };
@@ -53,7 +51,7 @@ namespace WingsOn.Api.Test
             var mockedBookingService = new Mock<IBookingService>();
             mockedBookingService
                 .Setup(service => service.CreateBooking(fakeBooking, 1, 1))
-                .Returns((Booking)null);
+                .Returns((BookingResource)null);
 
             var bookingController = new BookingController(mockedBookingService.Object);
 
@@ -65,7 +63,7 @@ namespace WingsOn.Api.Test
         [Fact]
         public void CreateBookingSuccess()
         {
-            var fakeBooking = new Booking
+            var fakeBooking = new BookingResource
             {
                 Number = "sdfsf"
             };
@@ -73,7 +71,7 @@ namespace WingsOn.Api.Test
             var mockedBookingService = new Mock<IBookingService>();
             mockedBookingService
                 .Setup(service => service.CreateBooking(fakeBooking, 1, 1))
-                .Returns(new Booking());
+                .Returns(new BookingResource());
 
             var bookingController = new BookingController(mockedBookingService.Object);
 
